@@ -33,7 +33,7 @@
         </div>
         <div>
             <p class="text-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi voluptate, rem ut eum odio quisquam repellat eveniet sunt non temporibus velit? Maxime, nulla quas. Maxime est vel commodi dignissimos.</p>
-            <button class="btn">Fast Food</button>
+            <button  class="btn">Fast Food</button>
         </div>
 
     </section>
@@ -70,7 +70,7 @@
                 <p>Fast Food</p>
                 <p>$ 11,94</p>
                 <div class="img-menu">
-                    <button class="modal-buttom">
+                    <button onclick="abrirModal()" data-idProduto="1" class="modal-buttom">
                         <img class="car" src="./assets//img/carinho.svg" alt="">
                     </button>
                 </div>
@@ -81,8 +81,11 @@
                 <p>Fast Food</p>
                 <p>$ 11,94</p>
                 <div class="img-menu">
-                    <img class="car" src="./assets//img/carinho.svg" alt="">
+                    <button onclick="abrirModal()" data-idProduto="2" class="modal-buttom">
+                        <img class="car" src="./assets//img/carinho.svg" alt="">
+                    </button>
                 </div>
+                
             </div>
             <div>
                 <img class="li" src="./assets/img/menu-4 1.svg" alt="">
@@ -90,7 +93,9 @@
                 <p>Fast Food</p>
                 <p>$ 11,94</p>
                 <div class="img-menu">
-                    <img class="car" src="./assets//img/carinho.svg" alt="">
+                    <button onclick="abrirModal()" data-idProduto="3" class="modal-buttom">
+                        <img class="car" src="./assets//img/carinho.svg" alt="">
+                    </button>
                 </div>
             </div>
             <div>
@@ -99,7 +104,9 @@
                 <p>Fast Food</p>
                 <p>$ 11,94</p>
                 <div class="img-menu">
-                    <img class="car" src="./assets//img/carinho.svg" alt="">
+                    <button onclick="abrirModal()" data-idProduto="4" class="modal-buttom">
+                        <img class="car" src="./assets//img/carinho.svg" alt="">
+                    </button>
                 </div>
             </div>
             <div>
@@ -108,7 +115,9 @@
                 <p>Fast Food</p>
                 <p>$ 11,94</p>
                 <div class="img-menu">
-                    <img class="car" src="./assets//img/carinho.svg" alt="">
+                    <button onclick="abrirModal()" data-idProduto="5" class="modal-buttom">
+                        <img class="car" src="./assets//img/carinho.svg" alt="">
+                    </button>
                 </div>
             </div>
             <div>
@@ -117,7 +126,9 @@
                 <p>Fast Food</p>
                 <p>$ 11,94</p>
                 <div class="img-menu">
-                    <img class="car" src="./assets//img/carinho.svg" alt="">
+                    <button onclick="abrirModal()" data-idProduto="6" class="modal-buttom">
+                        <img class="car" src="./assets//img/carinho.svg" alt="">
+                    </button>
                 </div>
             </div>
     
@@ -125,7 +136,7 @@
     </div>
     <div class="modal-container" data-modal="container">
         <div class="fundo">
-            <button class="fechar" data-modal="fechar">x</button>
+            <button onclick="fecharModal()" class="fechar" data-modal="fechar">x</button>
             <p>Obrigado por fazer login com a nossa empresa</p>
         </div>
     </div>
